@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ArrowRight, TrendingUp, Users, Award, Target, BarChart3, CheckCircle2, Sparkles, Leaf } from "lucide-react"
-import Link from "next/link"
+import { Award, BarChart3, CheckCircle2, Leaf, Sparkles, Target, TrendingUp, Users } from "lucide-react"
 
 export default function NutritionistLandingPage() {
   return (
@@ -10,7 +8,7 @@ export default function NutritionistLandingPage() {
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-center space-x-2">
           <Leaf className="size-4"/>
-          <div className="text-xl font-bold text-foreground">NutriGrow</div>
+          <div className="text-xl font-bold text-foreground">Tráfego pago para Nutris</div>
         </div>
       </header>
 
@@ -280,7 +278,7 @@ export default function NutritionistLandingPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-xl font-bold mb-4">NutriGrow</div>
+              <div className="text-xl font-bold mb-4">Tráfego pago para Nutris</div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 Especialistas em tráfego pago para nutricionistas que querem crescer.
               </p>
@@ -288,7 +286,7 @@ export default function NutritionistLandingPage() {
 
 
           <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} NutriGrow. Um serviço da ETC Digital - CNPJ 26.429.429/0001-10. Todos os direitos reservados.
+            © {new Date().getFullYear()} Tráfego pago para Nutris. Um serviço da ETC Digital - CNPJ 26.429.429/0001-10. Todos os direitos reservados.
           </div>
         </div>
       </footer>
